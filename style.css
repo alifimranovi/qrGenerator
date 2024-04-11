@@ -4,7 +4,6 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    
 }
 :root{
     --bg-color: #080808;
@@ -14,7 +13,7 @@
 body{
     background: var(--bg-color);
     color: var(--text-color);
-    max-height: 95vh;
+    overflow-y: hidden;
 }
 ::placeholder {
     color: #ffffff25;
@@ -24,7 +23,7 @@ body{
     color: var(--text-color);
 }
 .box{
-    width: 100vw;
+    width: auto;
     height: 80vh;
     display: flex;
     justify-content: center;
